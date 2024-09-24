@@ -1,0 +1,12 @@
+# Get the total and available physical memory
+$memoryStatus = Get-CimInstance -ClassName Win32_OperatingSystem
+
+# Calculate the free memory
+$totalMemory = $memoryStatus.TotalVisibleMemorySize * 1KB
+$freeMemory = $memoryStatus.FreePhysicalMemory * 1KB
+$usedMemory = $totalMemory - $freeMemory
+
+# Display the results
+Write-Host "Total Memory: $($totalMemory / 1GB) GB"
+Write-Host "Used Memory: $($usedMemory / 1GB) GB"
+Write-Host "Free Memory: $($freeMemory / 1GB) GB"
