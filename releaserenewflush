@@ -1,0 +1,13 @@
+# Release the current IP address
+Write-Host "Releasing current IP address..."
+ipconfig /release
+
+# Renew the IP address
+Write-Host "Renewing IP address..."
+ipconfig /renew
+
+# Flush the DNS resolver cache
+Write-Host "Flushing DNS resolver cache..."
+ipconfig /flushdns
+
+Write-Host "Network configuration updated successfully."
