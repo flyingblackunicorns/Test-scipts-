@@ -1,0 +1,10 @@
+# Define the URL for the Windirstat download
+$url = "https://sourceforge.net/projects/windirstat/files/latest/download"
+
+# Define the path where the file will be saved
+$output = "$env:USERPROFILE\Downloads\windirstat_setup.exe"
+
+# Download the file
+Invoke-WebRequest -Uri $url -OutFile $output
+
+Write-Host "Windirstat has been downloaded to $output"
