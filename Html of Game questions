@@ -1,28 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Black Friday Quiz</title>
+    <title>The More You Know Quiz</title>
     <script>
-        function checkAnswer() {
-            var answer = document.querySelector('input[name="answer"]:checked').value;
-            var result = document.getElementById("result");
+        function checkAnswers() {
+            var answer1 = document.querySelector('input[name="answer1"]:checked').value;
+            var answer2 = document.querySelector('input[name="answer2"]:checked').value;
+            var result1 = document.getElementById("result1");
+            var result2 = document.getElementById("result2");
 
-            if (answer === "B") {
-                result.textContent = "You are really smart! How did you get so smart?";
+            if (answer1 === "B") {
+                result1.textContent = "You are really smart! How did you get so smart?";
             } else {
-                result.textContent = "How did you not know the answer to this question? You should watch the movie again.";
+                result1.textContent = "How did you not know the answer to this question? You should watch the movie again.";
+            }
+
+            if (answer2 === "A") {
+                result2.textContent = "Yep, I must be in the presence of a genius!";
+            } else {
+                result2.textContent = "Look, there is no shame in saying I need to go back to school.";
             }
         }
     </script>
 </head>
 <body>
-    <h1>Who was the funniest character on Black Friday?</h1>
+    <h1>Question 1</h1>
+    <h2>Who was the funniest character on Friday?</h2>
     <form>
-        <input type="radio" name="answer" value="A"> A. Mike Epps<br>
-        <input type="radio" name="answer" value="B"> B. Ice Cube<br>
-        <input type="radio" name="answer" value="C"> C. Ice T<br><br>
-        <input type="button" value="Submit" onclick="checkAnswer()">
+        <input type="radio" name="answer1" value="A"> A. Mike Epps<br>
+        <input type="radio" name="answer1" value="B"> B. Ice Cube<br>
+        <input type="radio" name="answer1" value="C"> C. Chris Tucker<br><br>
+        
+        <h1>Question 2</h1>
+        <h2>What is the father's name on the Simpsons?</h2>
+        <input type="radio" name="answer2" value="A"> A. Homer Simpson<br>
+        <input type="radio" name="answer2" value="B"> B. Maggie<br>
+        <input type="radio" name="answer2" value="C"> C. Ronald McDonald<br><br>
+        
+        <input type="button" value="Submit" onclick="checkAnswers()">
     </form>
-    <p id="result"></p>
+    
+    <p id="result1"></p>
+    <p id="result2"></p>
 </body>
 </html>
