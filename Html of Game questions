@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Black Friday Quiz</title>
+    <script>
+        function checkAnswer() {
+            var answer = document.querySelector('input[name="answer"]:checked').value;
+            var result = document.getElementById("result");
+
+            if (answer === "B") {
+                result.textContent = "You are really smart! How did you get so smart?";
+            } else {
+                result.textContent = "How did you not know the answer to this question? You should watch the movie again.";
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Who was the funniest character on Black Friday?</h1>
+    <form>
+        <input type="radio" name="answer" value="A"> A. Mike Epps<br>
+        <input type="radio" name="answer" value="B"> B. Ice Cube<br>
+        <input type="radio" name="answer" value="C"> C. Ice T<br><br>
+        <input type="button" value="Submit" onclick="checkAnswer()">
+    </form>
+    <p id="result"></p>
+</body>
+</html>
