@@ -1,0 +1,25 @@
+# Function to display the question and options
+function Show-Question {
+    Write-Host "Who was the funniest character on Black Friday?"
+    Write-Host "A. Mike Epps"
+    Write-Host "B. Ice Cube"
+    Write-Host "C. Ice T"
+}
+
+# Function to handle the user's response
+function Handle-Response {
+    param (
+        [string]$answer
+    )
+
+    if ($answer -eq 'B') {
+        Write-Host "You are really smart! How did you get so smart?"
+    } else {
+        Write-Host "How did you not know the answer to this question? You should watch the movie again."
+    }
+}
+
+# Main script
+Show-Question
+$answer = Read-Host "Enter your answer (A, B, or C)"
+Handle-Response -answer $answer
