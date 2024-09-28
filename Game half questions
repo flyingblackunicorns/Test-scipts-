@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<head>
+                                                  <title>So you say you know BLack People</title>
+    <script>
+        function checkAnswer1() {
+            var answer1 = document.querySelector('input[name="answer1"]:checked').value;
+            var result1 = document.getElementById("result1");
+
+            if (answer1 === "B") {
+                result1.textContent = "Correct. You are really smart! How did you get so smart?";
+            } else {
+                result1.textContent = "Wrong. How did you not know the answer to this question? You should watch it again.";
+            }
+        }
+
+        function checkAnswer2() {
+            var answer2 = document.querySelector('input[name="answer2"]:checked').value;
+            var result2 = document.getElementById("result2");
+
+            if (answer2 === "A") {
+                result2.textContent = "Correct. Yep, I must be in the presence of a genius!";
+            } else {
+                result2.textContent = "Wrong. Look, there is no shame in saying I need to go back to school.";
+            }
+        }
+		
+		       function checkAnswer3() {
+            var answer3 = document.querySelector('input[name="answer1"]:checked').value;
+            var result3 = document.getElementById("result1");
+
+            if (answer3 === "C") {
+                result3.textContent = "Correct. Yo I am reall impressed? I would go to family fued with you";
+            } else {
+                result3.textContent = "Wrong. I think this kid is kind of slow. Don't tell nobody";
+            }
+        }
+		
+		       function checkAnswer4() {
+            var answer4 = document.querySelector('input[name="answer1"]:checked').value;
+            var result4 = document.getElementById("result1");
+
+            if (answer4 === "A") {
+                result4.textContent = "Correct. I can tell you went to college good answer money well spent?";
+            } else {
+                result4.textContent = "Dam wrong again, look I don't want to talk about you but how about a book for Christmas.";
+            }
+        }
+		
+		       function checkAnswer5() {
+            var answer5 = document.querySelector('input[name="answer1"]:checked').value;
+            var result5 = document.getElementById("result1");
+
+            if (answer5 === "B") {
+                result5.textContent = "You are really smart! How did you get so smart?";
+            } else {
+                result5.textContent = "How did you not know the answer to this question? You should watch it again.";
+            }
+        }
+		
+		       function checkAnswer6() {
+            var answer6 = document.querySelector('input[name="answer1"]:checked').value;
+            var result6 = document.getElementById("result1");
+
+            if (answer6 === "C") {
+                result6.textContent = "You are really smart! How did you get so smart?";
+            } else {
+                result6.textContent = "How did you not know the answer to this question? You should watch it again.";
+            }
+        }
+		
+		       function checkAnswer7() {
+            var answer7 = document.querySelector('input[name="answer1"]:checked').value;
+            var result7 = document.getElementById("result1");
+
+            if (answer7 === "B") {
+                result7.textContent = "You are really smart! How did you get so smart?";
+            } else {
+                result7.textContent = "How did you not know the answer to this question? You should watch it again.";
+            }
+        }
+		
+		       function checkAnswer8() {
+            var answer8 = document.querySelector('input[name="answer1"]:checked').value;
+            var result8 = document.getElementById("result1");
+
+            if (answer8 === "B") {
+                result8.textContent = "You are really smart! How did you get so smart?";
+            } else {
+                result8.textContent = "How did you not know the answer to this question? You should watch it again.";
+            }
+        }
+		
+		       function checkAnswer9() {
+            var answer9 = document.querySelector('input[name="answer1"]:checked').value;
+            var result9 = document.getElementById("result1");
+
+            if (answer9 === "B") {
+                result9.textContent = "You are really smart! How did you get so smart?";
+            } else {
+                result9.textContent = "How did you not know the answer to this question? You should watch it again.";
+            }
+        }
+		
+		       function checkAnswer10() {
+            var answer10 = document.querySelector('input[name="answer1"]:checked').value;
+            var result10 = document.getElementById("result1");
+
+            if (answer10 === "B") {
+                result10.textContent = "You are really smart! How did you get so smart?";
+            } else {
+                result10.textContent = "How did you not know the answer to this question? You should watch it again.";
+            }
+        }
+		
+		       function checkAnswer11() {
+            var answer11 = document.querySelector('input[name="answer1"]:checked').value;
+            var result11 = document.getElementById("result1");
+
+            if (answer11 === "B") {
+                result11.textContent = "You are really smart! How did you get so smart?";
+            } else {
+                result11.textContent = "How did you not know the answer to this question? You should watch it again.";
+            }
+        }
+		
+		       function checkAnswer12() {
+            var answer12 = document.querySelector('input[name="answer1"]:checked').value;
+            var result12 = document.getElementById("result1");
+
+            if (answer12 === "B") {
+                result12.textContent = "You are really smart! How did you get so smart?";
+            } else {
+                result12.textContent = "How did you not know the answer to this question? You should watch it again.";
+            }
+        }
+		
+		       function checkAnswer13() {
+            var answer13 = document.querySelector('input[name="answer1"]:checked').value;
+            var result13 = document.getElementById("result1");
+
+            if (answer13 === "B") {
+                result13.textContent = "You are really smart! How did you get so smart?";
+            } else {
+                result13.textContent = "How did you not know the answer to this question? You should watch it again.";
+            }
+        }
+		
+		       function checkAnswer14() {
+            var answer14 = document.querySelector('input[name="answer1"]:checked').value;
+            var result14 = document.getElementById("result1");
+
+            if (answer14 === "B") {
+                result14.textContent = "You are really smart! How did you get so smart?";
+            } else {
+                result14.textContent = "How did you not know the answer to this question? You should watch it again.";
+            }
+        }
+		
+		       function checkAnswer15() {
+            var answer15 = document.querySelector('input[name="answer1"]:checked').value;
+            var result15 = document.getElementById("result1");
+
+            if (answer15 === "B") {
+                result15.textContent = "You are really smart! How did you get so smart?";
+            } else {
+                result1.textContent = "How did you not know the answer to this question? You should watch it again.";
+            }
+        }
+		
+		       function checkAnswer16() {
+            var answer16 = document.querySelector('input[name="answer1"]:checked').value;
+            var result16 = document.getElementById("result1");
+
+            if (answer16 === "B") {
+                result16.textContent = "You are really smart! How did you get so smart?";
+            } else {
+                result16.textContent = "How did you not know the answer to this question? You should watch it again.";
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Question 1</h1>
+    <h2>Who was the actor that played Craig in the Friday Movies?</h2>
+    <form>
+        <input type="radio" name="answer1" value="A"> A. Mike Epps<br>
+        <input type="radio" name="answer1" value="B"> B. Ice Cube<br>
+        <input type="radio" name="answer1" value="C"> C. Chris Tucker<br><br>
+        <input type="button" value="Submit" onclick="checkAnswer1()">
+    </form>
+    <p id="result1"></p>
+    
+    <h1>Question 2</h1>
+    <h2>What is the father's name on the Simpsons?</h2>
+    <form>
+        <input type="radio" name="answer2" value="A"> A. Homer Simpson<br>
+        <input type="radio" name="answer2" value="B"> B. Maggie<br>
+        <input type="radio" name="answer2" value="C"> C. Ronald McDonald<br><br>
+        <input type="button" value="Submit" onclick="checkAnswer2()">
+    </form>
+    <p id="result2"></p>
+	
+	   <h1>Question 3</h1>
+    <h2>When you go to a black family gathering what is the dish every body want to know who made it?</h2>
+    <form>
+        <input type="radio" name="answer1" value="A"> A. Ham<br>
+        <input type="radio" name="answer1" value="B"> B. Punkin pie<br>
+        <input type="radio" name="answer1" value="C"> C. Potato Salad<br><br>
+        <input type="button" value="Submit" onclick="checkAnswer1()">
+    </form>
+    <p id="result3"></p>
+	
+	   <h1>Question 4</h1>
+    <h2>In boys in the hood what was Rickey drinking when he got shot?</h2>
+    <form>
+        <input type="radio" name="answer1" value="A"> A. Milk<br>
+        <input type="radio" name="answer1" value="B"> B. A 40 ounce<br>
+        <input type="radio" name="answer1" value="C"> C. Mountain Dew<br><br>
+        <input type="button" value="Submit" onclick="checkAnswer1()">
+    </form>
+    <p id="result4"></p>
+	
+	   <h1>Question 5</h1>
+    <h2>When was the last time the Lauren Hill was on time for a concert?</h2>
+    <form>
+        <input type="radio" name="answer1" value="A"> A. When she was with the fugiees<br>
+        <input type="radio" name="answer1" value="B"> B. Never<br>
+        <input type="radio" name="answer1" value="C"> C. 7 Oclock in her drop top<br><br>
+        <input type="button" value="Submit" onclick="checkAnswer1()">
+    </form>
+    <p id="result5"></p>
+	
+	   <h1>Question 6</h1>
+    <h2>Bag lady you go hurt yo _______? Carring all them ________ like that.</h2>
+    <form>
+        <input type="radio" name="answer1" value="A"> A. Foot, troubles<br>
+        <input type="radio" name="answer1" value="B"> B. knee, people<br>
+        <input type="radio" name="answer1" value="C"> C. Back, Bags<br><br>
+        <input type="button" value="Submit" onclick="checkAnswer1()">
+    </form>
+    <p id="result6"></p>
+	
+	   <h1>Question 7</h1>
+    <h2>In the movie tales from the crypt, what where the little black people who haunted the house called?</h2>
+    <form>
+        <input type="radio" name="answer1" value="A"> A. Charcole<br>
+        <input type="radio" name="answer1" value="B"> B. Nigglets <br>
+        <input type="radio" name="answer1" value="C"> C. Pick a nineys<br><br>
+        <input type="button" value="Submit" onclick="checkAnswer1()">
+    </form>
+    <p id="result7"></p>
+	
+	   <h1>Question 8</h1>
+    <h2>Who was the actor that played Craig in the Friday Movies?</h2>
+    <form>
+        <input type="radio" name="answer1" value="A"> A. Mike Epps<br>
+        <input type="radio" name="answer1" value="B"> B. Ice Cube<br>
+        <input type="radio" name="answer1" value="C"> C. Chris Tucker<br><br>
+        <input type="button" value="Submit" onclick="checkAnswer1()">
+    </form>
+    <p id="result8"></p>
+	
+	   <h1>Question 9</h1>
+    <h2>Who was the actor that played Craig in the Friday Movies?</h2>
+    <form>
+        <input type="radio" name="answer1" value="A"> A. Mike Epps<br>
+        <input type="radio" name="answer1" value="B"> B. Ice Cube<br>
+        <input type="radio" name="answer1" value="C"> C. Chris Tucker<br><br>
+        <input type="button" value="Submit" onclick="checkAnswer1()">
+    </form>
+    <p id="result9"></p>
+	
+	   <h1>Question 10</h1>
+    <h2>Who was the actor that played Craig in the Friday Movies?</h2>
+    <form>
+        <input type="radio" name="answer1" value="A"> A. Mike Epps<br>
+        <input type="radio" name="answer1" value="B"> B. Ice Cube<br>
+        <input type="radio" name="answer1" value="C"> C. Chris Tucker<br><br>
+        <input type="button" value="Submit" onclick="checkAnswer1()">
+    </form>
+    <p id="result10"></p>
+	
+	   <h1>Question 11</h1>
+    <h2>Who was the actor that played Craig in the Friday Movies?</h2>
+    <form>
+        <input type="radio" name="answer1" value="A"> A. Mike Epps<br>
+        <input type="radio" name="answer1" value="B"> B. Ice Cube<br>
+        <input type="radio" name="answer1" value="C"> C. Chris Tucker<br><br>
+        <input type="button" value="Submit" onclick="checkAnswer1()">
+    </form>
+    <p id="result11"></p>
+	
+	   <h1>Question 12</h1>
+    <h2>Who was the actor that played Craig in the Friday Movies?</h2>
+    <form>
+        <input type="radio" name="answer1" value="A"> A. Mike Epps<br>
+        <input type="radio" name="answer1" value="B"> B. Ice Cube<br>
+        <input type="radio" name="answer1" value="C"> C. Chris Tucker<br><br>
+        <input type="button" value="Submit" onclick="checkAnswer1()">
+    </form>
+    <p id="result12"></p>
+	
+	   <h1>Question 13</h1>
+    <h2>Who was the actor that played Craig in the Friday Movies?</h2>
+    <form>
+        <input type="radio" name="answer1" value="A"> A. Mike Epps<br>
+        <input type="radio" name="answer1" value="B"> B. Ice Cube<br>
+        <input type="radio" name="answer1" value="C"> C. Chris Tucker<br><br>
+        <input type="button" value="Submit" onclick="checkAnswer1()">
+    </form>
+    <p id="result13"></p>
+	
+	   <h1>Question 14</h1>
+    <h2>Who was the actor that played Craig in the Friday Movies?</h2>
+    <form>
+        <input type="radio" name="answer1" value="A"> A. Mike Epps<br>
+        <input type="radio" name="answer1" value="B"> B. Ice Cube<br>
+        <input type="radio" name="answer1" value="C"> C. Chris Tucker<br><br>
+        <input type="button" value="Submit" onclick="checkAnswer1()">
+    </form>
+    <p id="result14"></p>
+	
+	   <h1>Question 15</h1>
+    <h2>Who was the actor that played Craig in the Friday Movies?</h2>
+    <form>
+        <input type="radio" name="answer1" value="A"> A. Mike Epps<br>
+        <input type="radio" name="answer1" value="B"> B. Ice Cube<br>
+        <input type="radio" name="answer1" value="C"> C. Chris Tucker<br><br>
+        <input type="button" value="Submit" onclick="checkAnswer1()">
+    </form>
+    <p id="result15"></p>
+	
+	   <h1>Question 16</h1>
+    <h2>Who was the actor that played Craig in the Friday Movies?</h2>
+    <form>
+        <input type="radio" name="answer1" value="A"> A. Mike Epps<br>
+        <input type="radio" name="answer1" value="B"> B. Ice Cube<br>
+        <input type="radio" name="answer1" value="C"> C. Chris Tucker<br><br>
+        <input type="button" value="Submit" onclick="checkAnswer1()">
+    </form>
+    <p id="result16"></p>
+</body>
+</html>
+
