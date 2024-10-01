@@ -52,9 +52,9 @@
             var result5 = document.getElementById("result1");
 
             if (answer5 === "B") {
-                result5.textContent = "You are really smart! How did you get so smart?";
+                result5.textContent = "Correct, You are really smart! How did you get so smart?";
             } else {
-                result5.textContent = "How did you not know the answer to this question? You should watch it again.";
+                result5.textContent = "Wrong,How did you not know the answer to this question? You should watch it again.";
             }
         }
 		
@@ -63,9 +63,9 @@
             var result6 = document.getElementById("result1");
 
             if (answer6 === "C") {
-                result6.textContent = "You are really smart! How did you get so smart?";
+                result6.textContent = "Correct, You are really smart! How did you get so smart?";
             } else {
-                result6.textContent = "How did you not know the answer to this question? You should watch it again.";
+                result6.textContent = "Wrong, How did you not know the answer to this question? You should watch it again.";
             }
         }
 		
@@ -74,9 +74,9 @@
             var result7 = document.getElementById("result1");
 
             if (answer7 === "B") {
-                result7.textContent = "You are really smart! How did you get so smart?";
+                result7.textContent = "Correct, You are really smart! How did you get so smart?";
             } else {
-                result7.textContent = "How did you not know the answer to this question? You should watch it again.";
+                result7.textContent = "Wrong, How did you not know the answer to this question? You should watch it again.";
             }
         }
 		
@@ -85,9 +85,9 @@
             var result8 = document.getElementById("result1");
 
             if (answer8 === "B") {
-                result8.textContent = "You are really smart! How did you get so smart?";
+                result8.textContent = "Correct, You are really smart! How did you get so smart?";
             } else {
-                result8.textContent = "How did you not know the answer to this question? You should watch it again.";
+                result8.textContent = "Wrong, How did you not know the answer to this question? You should watch it again.";
             }
         }
 		
@@ -96,9 +96,9 @@
             var result9 = document.getElementById("result1");
 
             if (answer9 === "B") {
-                result9.textContent = "You are really smart! How did you get so smart?";
+                result9.textContent = "Correct, You are really smart! How did you get so smart?";
             } else {
-                result9.textContent = "How did you not know the answer to this question? You should watch it again.";
+                result9.textContent = "Wrong, How did you not know the answer to this question? You should watch it again.";
             }
         }
 		
@@ -107,9 +107,9 @@
             var result10 = document.getElementById("result1");
 
             if (answer10 === "B") {
-                result10.textContent = "You are really smart! How did you get so smart?";
+                result10.textContent = "Correct, You are really smart! How did you get so smart?";
             } else {
-                result10.textContent = "How did you not know the answer to this question? You should watch it again.";
+                result10.textContent = "Wrong, How did you not know the answer to this question? You should watch it again.";
             }
         }
 		
@@ -118,9 +118,9 @@
             var result11 = document.getElementById("result1");
 
             if (answer11 === "B") {
-                result11.textContent = "You are really smart! How did you get so smart?";
+                result11.textContent = "Correct, You are really smart! How did you get so smart?";
             } else {
-                result11.textContent = "How did you not know the answer to this question? You should watch it again.";
+                result11.textContent = "Wrong, How did you not know the answer to this question? You should watch it again.";
             }
         }
 		
@@ -129,9 +129,9 @@
             var result12 = document.getElementById("result1");
 
             if (answer12 === "B") {
-                result12.textContent = "You are really smart! How did you get so smart?";
+                result12.textContent = "Correct, You are really smart! How did you get so smart?";
             } else {
-                result12.textContent = "How did you not know the answer to this question? You should watch it again.";
+                result12.textContent = "Wrong, How did you not know the answer to this question? You should watch it again.";
             }
         }
 		
@@ -140,9 +140,9 @@
             var result13 = document.getElementById("result1");
 
             if (answer13 === "B") {
-                result13.textContent = "You are really smart! How did you get so smart?";
+                result13.textContent = "Correct, You are really smart! How did you get so smart?";
             } else {
-                result13.textContent = "How did you not know the answer to this question? You should watch it again.";
+                result13.textContent = "Wrong, How did you not know the answer to this question? You should watch it again.";
             }
         }
 		
@@ -151,9 +151,9 @@
             var result14 = document.getElementById("result1");
 
             if (answer14 === "B") {
-                result14.textContent = "You are really smart! How did you get so smart?";
+                result14.textContent = "Correct, You are really smart! How did you get so smart?";
             } else {
-                result14.textContent = "How did you not know the answer to this question? You should watch it again.";
+                result14.textContent = "Wrong, How did you not know the answer to this question? You should watch it again.";
             }
         }
 		
@@ -162,9 +162,9 @@
             var result15 = document.getElementById("result1");
 
             if (answer15 === "B") {
-                result15.textContent = "You are really smart! How did you get so smart?";
+                result15.textContent = "Correct, You are really smart! How did you get so smart?";
             } else {
-                result1.textContent = "How did you not know the answer to this question? You should watch it again.";
+                result1.textContent = "Wrong, How did you not know the answer to this question? You should watch it again.";
             }
         }
 		
@@ -173,9 +173,9 @@
             var result16 = document.getElementById("result1");
 
             if (answer16 === "B") {
-                result16.textContent = "You are really smart! How did you get so smart?";
+                result16.textContent = "Correct, You are really smart! How did you get so smart?";
             } else {
-                result16.textContent = "How did you not know the answer to this question? You should watch it again.";
+                result16.textContent = "Wrong, How did you not know the answer to this question? You should watch it again.";
             }
         }
     </script>
